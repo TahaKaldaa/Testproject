@@ -1,0 +1,6 @@
+import shutil
+
+source = 'C:\StagePython\original.xlsx'
+destination = 'C:\StagePython\copy.xlsx'
+
+shutil.copy(source, destination)
